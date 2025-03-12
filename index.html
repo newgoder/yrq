@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【游戏名称】- 一场前所未有的冒险</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        
+        .header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('游戏背景图.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+        }
+        
+        .logo {
+            max-width: 400px;
+            margin-bottom: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .tagline {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background-color: #ff5722;
+            color: white;
+            font-size: 1.2em;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        
+        .cta-button:hover {
+            background-color: #e64a19;
+        }
+        
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 40px 0;
+        }
+        
+        .feature {
+            flex-basis: 30%;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .feature img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 15px;
+        }
+        
+        .screenshots {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: 20px;
+            margin: 40px 0;
+        }
+        
+        .screenshot img {
+            width: 100%;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        
+        .screenshot img:hover {
+            transform: scale(1.05);
+        }
+        
+        .requirements {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+        
+        .social-icons a {
+            color: white;
+            margin: 0 10px;
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="游戏logo.png" alt="游戏标志" class="logo">
+        <h1>【游戏名称】</h1>
+        <p class="tagline">【游戏简短描述/标语】</p>
+        <a href="#download" class="cta-button">立即下载</a>
+    </div>
+    
+    <div class="container">
+        <h2>关于游戏</h2>
+        <p>【游戏的详细介绍，包括背景故事、玩法简介等。这里可以写200-300字左右的游戏介绍，让玩家了解游戏的核心内容和吸引点。】</p>
+        
+        <h2>游戏特色</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="特色图标1.png" alt="特色1">
+                <h3>【特色1标题】</h3>
+                <p>【描述游戏的第一个主要特色】</p>
+            </div>
+            <div class="feature">
+                <img src="特色图标2.png" alt="特色2">
+                <h3>【特色2标题】</h3>
+                <p>【描述游戏的第二个主要特色】</p>
+            </div>
+            <div class="feature">
+                <img src="特色图标3.png" alt="特色3">
+                <h3>【特色3标题】</h3>
+                <p>【描述游戏的第三个主要特色】</p>
+            </div>
+            <div class="feature">
+                <img src="特色图标4.png" alt="特色4">
+                <h3>【特色4标题】</h3>
+                <p>【描述游戏的第四个主要特色】</p>
+            </div>
+            <div class="feature">
+                <img src="特色图标5.png" alt="特色5">
+                <h3>【特色5标题】</h3>
+                <p>【描述游戏的第五个主要特色】</p>
+            </div>
+            <div class="feature">
+                <img src="特色图标6.png" alt="特色6">
+                <h3>【特色6标题】</h3>
+                <p>【描述游戏的第六个主要特色】</p>
+            </div>
+        </div>
+        
+        <h2>精彩截图</h2>
+        <div class="screenshots">
+            <div class="screenshot">
+                <img src="截图1.jpg" alt="游戏截图1">
+            </div>
+            <div class="screenshot">
+                <img src="截图2.jpg" alt="游戏截图2">
+            </div>
+            <div class="screenshot">
+                <img src="截图3.jpg" alt="游戏截图3">
+            </div>
+            <div class="screenshot">
+                <img src="截图4.jpg" alt="游戏截图4">
+            </div>
+        </div>
+        
+        <h2>游戏预告片</h2>
+        <div style="text-align: center; margin: 40px 0;">
+            <iframe width="800" height="450" src="【YouTube或其他视频平台的嵌入链接】" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <h2 id="download">系统需求</h2>
+        <div class="requirements">
+            <h3>最低配置:</h3>
+            <ul>
+                <li><strong>操作系统:</strong> Windows 10 64位</li>
+                <li><strong>处理器:</strong> Intel Core i5-xxxx / AMD Ryzen x xxxx</li>
+                <li><strong>内存:</strong> 8GB RAM</li>
+                <li><strong>显卡:</strong> NVIDIA GeForce GTX xxxx / AMD Radeon RX xxxx</li>
+                <li><strong>存储空间:</strong> 需要xxGB可用空间</li>
+            </ul>
+            
+            <h3>推荐配置:</h3>
+            <ul>
+                <li><strong>操作系统:</strong> Windows 10/11 64位</li>
+                <li><strong>处理器:</strong> Intel Core i7-xxxx / AMD Ryzen x xxxx</li>
+                <li><strong>内存:</strong> 16GB RAM</li>
+                <li><strong>显卡:</strong> NVIDIA GeForce RTX xxxx / AMD Radeon RX xxxx</li>
+                <li><strong>存储空间:</strong> 需要xxGB可用空间（SSD推荐）</li>
+            </ul>
+        </div>
+        
+        <h2>获取游戏</h2>
+        <div style="text-align: center; margin: 40px 0;">
+            <a href="【游戏下载/购买链接】" class="cta-button">立即购买/下载</a>
+            <p style="margin-top: 20px;">在Steam、Epic游戏商城、App Store、Google Play等平台均可获取</p>
+            
+            <div style="margin-top: 30px;">
+                <a href="#"><img src="steam图标.png" alt="Steam" style="height: 40px; margin: 0 10px;"></a>
+                <a href="#"><img src="epic图标.png" alt="Epic Games" style="height: 40px; margin: 0 10px;"></a>
+                <a href="#"><img src="appstore图标.png" alt="App Store" style="height: 40px; margin: 0 10px;"></a>
+                <a href="#"><img src="googleplay图标.png" alt="Google Play" style="height: 40px; margin: 0 10px;"></a>
+            </div>
+        </div>
+        
+        <h2>关于开发者</h2>
+        <p>【开发团队/个人的简介，可以包括以前的作品、开发理念等】</p>
+    </div>
+    
+    <footer>
+        <div class="social-icons">
+            <a href="#"><img src="微博图标.png" alt="微博" style="height: 30px;"></a>
+            <a href="#"><img src="微信图标.png" alt="微信" style="height: 30px;"></a>
+            <a href="#"><img src="B站图标.png" alt="哔哩哔哩" style="height: 30px;"></a>
+        </div>
+        <p>© 2024 【开发者/工作室名称】. 保留所有权利。</p>
+        <p><a href="#" style="color: #aaa;">隐私政策</a> | <a href="#" style="color: #aaa;">服务条款</a></p>
+    </footer>
+</body>
+</html>
